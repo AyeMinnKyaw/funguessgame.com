@@ -6,7 +6,6 @@ const guess = () => {
     checkInvalidNum();
     reduceAliveNum();
     checkUserNum();
-    checkUserNum1();
     if (aliveNumber == 0){
         alert ("Game Over");
         document.location = 'play.html';
@@ -40,18 +39,6 @@ const checkUserNum = () => {
     }
 }
 
-const checkUserNum1 = () => {
-    if (guessNumber > randomNumber && guessNumber < 100) {
-        document.getElementById('showHint').innerHTML = "";
-    } else if(guessNumber < randomNumber && guessNumber > 0) {
-        document.getElementById('showHint').innerHTML = "";
-    } else if(guessNumber == randomNumber) {
-        alert ("Congratulation");
-        document.location = 'play.html';
-    } else if (guessNumber == 0) {
-        alert ("Please enter number");
-    }
-}
 const show_answer = () => {
     document.getElementById('showAnswer').innerHTML = randomNumber;
 }
