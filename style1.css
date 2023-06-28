@@ -1,0 +1,60 @@
+body {
+    width: 100%;
+    height: max-content;
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url("https://shorturl.at/pvMW7");
+}
+
+h2 {
+    color: aliceblue;
+    margin-left: 70px;
+}
+
+.container {
+    width: 980px;
+    height: 550px;
+    /* background-image: url("https://shorturl.ac/7ahgh"); */
+    /* background-image: url("https://shorturl.at/pvMW7"); */
+}
+
+.top {
+    margin: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.middle {
+    text-align: center;
+    margin: auto;
+    margin-top: 55px;
+    width: 200px;
+    height: 200px;
+}
+
+.info {
+    width: max-content;
+    margin-left: 90px;
+}
+button {
+    margin: 9px;
+}
+
+svg:hover {
+    background-color: white;
+    color: rgb(17, 36, 238);
+    border-radius: 50px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+p {
+    color: yellow;
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="loginstyle.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="head"> 
+            <h1 style="color: rgb(255, 255, 255);">Login</h1>
+        </div>
+        <div class="formClass">
+            <form action="/index.html">
+                <div class="inputClass">
+                    <input 
+                        type="email" 
+                        name="text" 
+                        id="text" 
+                        placeholder="Email" 
+                        value="ayeminkyaw11@gmail.com" 
+                        required
+                    >
+                    <input 
+                        type="password" 
+                        name="password" 
+                        id="pass" 
+                        placeholder="Password" 
+                        value="12345678" 
+                        required
+                    >
+                </div>
+                <div class="buttonClass" >
+                    <button onclick="document.location='sign_up_page.html'" type="button" name="signUp" class="sign_up button">Sign Up</button>
+                    <button type="submit" name="login" onclick="noti()" class="login button">Login</button>
+                </div>
+            </form>
+        </div>
+        <div class="bottom"> 
+            <a href="" class="link" title="Test">Forgot your password?</a>
+        </div>
+    </div>
+    <script>
+        function noti() {
+            alert ("Login Successful")
+        }
+    </script>
+</body>
+</html>

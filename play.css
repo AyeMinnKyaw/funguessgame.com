@@ -1,0 +1,135 @@
+/* .input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input[type=number] {
+  -moz-appearance: textfield;
+} */
+
+.input {
+    width: fit-content;
+    padding: 5px 7px;
+    width: fit-content;
+    border: none;
+    border-bottom: 2px solid rgb(246, 67, 237);
+    background-color: inherit;
+    outline: none;
+}
+
+.input:hover {
+    border: none;
+    border-bottom: 1px solid rgb(246, 67, 237);
+    background-color: inherit;
+    text-decoration: none;
+}
+
+.label {
+    color: blue;
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+.operation {
+    margin-top: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 1000;
+    background-image: url("https://shorturl.at/pvMW7");
+}
+
+h2 {
+    color: aliceblue;
+    margin-left: 50px;
+}
+
+.container {
+    width: 980px;
+    height: 550px;
+    /* background-image: url("https://shorturl.ac/7ahgh"); */
+    /* background-image: url("https://shorturl.at/pvMW7"); */
+    /* background-color: skyblue; */
+}
+
+.top {
+    text-align: center;
+    margin: 7px;
+}
+
+.middle {
+    margin: auto;
+    margin-top: 55px;
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.formInput {
+    text-align: center;
+    margin-right: 50px;
+}
+
+form {
+    margin-left: 100px;
+}
+
+#demo {
+    border: 1px solid rgba(236, 145, 48, 0.998);
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+.btn-outline-secondary {
+    margin-right: 7px;
+}
+
+button {
+    margin: 9px;
+}
+/*
+button {
+    padding: 7px 20px;
+    margin: 9px;
+    color: brown;
+    background-color: #c18787;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: wheat;
+    color: white;
+    border: 1px groove red;
+}
+*/
+.hint p {
+    width: 250px;
+    text-align: start;
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+p {
+    color: yellow;
+}
+
+@media (max-width: 400px) {
+    .bottom {
+        margin-top: 20px;
+    }
+}

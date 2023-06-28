@@ -1,0 +1,86 @@
+body {
+    background-image: url("earth.jpg");
+    
+}
+.parent{
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    /*margin-right: 425px; margin-left: 425px;*/
+}
+.head {
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.inputClass {
+    text-align: center;
+}
+
+input {
+    display: inline-block;
+    font-size: medium;
+    margin: 0 17px 25px;
+    width: 200px;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 3px 10px;
+    outline: none;
+    background-color:inherit;
+    color: #ffffff;
+}
+
+input:hover {
+    background-image: url("earth.jpg");
+}
+
+.buttonClass {
+    text-align: end;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login {
+
+    font-size: large;
+    background-color: inherit;
+    color: #ffffff;
+}
+
+.sign_up {
+
+    font-size: large;
+    background-color: inherit;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.button {
+    border-top: 2px solid red;
+    border-right: 2px solid green;
+    border-left: 2px solid blue;
+    border-bottom: 2px solid #555;
+    border-radius: 5px;
+    padding: 5px 7px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+.bottom {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.link:hover {
+    color: rgb(0, 0, 0);
+}
